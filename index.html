@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="assets/images/bubble-tea-logo.png" type="image/x-icon">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2188e87f2e.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +34,7 @@
             </div>
             <div>
                 <ul class="hidden md:flex md:gap-3 text-sm text-green-700 lg:text-lg lg:gap-4 2xl:text-3xl 2xl:gap-10">
-                    <li><a href="#featured_products">Featured Products</a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                     <li><a href="#great_teas">Great Teas</a></li>
                     <li><a href="#super_clients">Super Clients</a></li>
                     <li><a href="#news_Events">News & Events</a></li>
@@ -56,7 +58,68 @@
         <!-- News & events section -->
         <section></section>
     </main>
-    <footer></footer>
+    <footer
+        class="bg-linear-to-r from-[#FFF0EA] to-[#FFE6E6] p-3 py-20 lg:px-10 lg:py-5 xl:px-56 xl:py-32 2xl:px-96 text-center md:text-left">
+        <div class="flex flex-col items-center gap-4 md:flex-row md:justify-between xl:pb-24">
+            <div>
+                <img src="assets/images/cup.png" alt="">
+            </div>
+            <div class="md:flex md:items-center gap-10">
+                <p class="text-[#494949] font-medium text-xl">Ready to go started?</p>
+                <div>
+                    <button
+                        class="bg-linear-to-r from-[#FF0000] to-[#FF8938] text-white font-bold text-xl px-6 py-4 my-4 cursor-pointer rounded-lg">Get
+                        Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-5 mt-5 md:flex-row md:justify-between">
+            <div>
+                <h3 class="text-xl font-semibold pb-2">Quick Links</h3>
+                <ul class="text-[#494949] flex flex-col gap-2">
+                    <li><a href="#featured_products">Featured Products</a></li>
+                    <li><a href="#great_teas">Great Teas</a></li>
+                    <li><a href="#super_clients">Super Clients</a></li>
+                    <li><a href="#news_Events">News & Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold pb-2">Our Service</h3>
+                <ul class="text-[#494949] flex flex-col gap-2">
+                    <li><a href="#">Home Delivery</a></li>
+                    <li><a href="#">Maintain SOP</a></li>
+                    <li><a href="#">Maintain hygiene</a></li>
+                    <li><a href="#">Low Cost</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold pb-2">Help</h3>
+                <ul class="text-[#494949] flex flex-col gap-2">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5 md:justify-start ">
+                <p class="text-2xl font-semibold md:max-w-[216px]">Subscribe to our newsletter</p>
+                <div>
+                    <input class="border-b-2 border-[#494949] text-sm text-[#494949] outline-[#494949]" type="email"
+                        placeholder="Email Address">
+                    <!-- icon -->
+                </div>
+                <div>
+                    <ul class="flex gap-5 justify-center md:justify-start">
+                        <li class="text-[#494949] text-2xl"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="text-[#494949] text-2xl"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="text-[#494949] text-2xl"><a href="#"><i
+                                    class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="text-[#494949] pt-10 xl:pt-16 text-center">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
