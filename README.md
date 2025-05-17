@@ -8,6 +8,9 @@ This is my second Tailwind CSS static landing page project. While building this 
 
 This helped me feel more confident with these types of styles.
 
+## Project Demo Video
+https://github.com/user-attachments/assets/11b57c32-846e-4ad4-8e85-6d4f7c77b341
+
 ## Live Site Link
 https://muhammad-tamim.github.io/web_project_8
 
